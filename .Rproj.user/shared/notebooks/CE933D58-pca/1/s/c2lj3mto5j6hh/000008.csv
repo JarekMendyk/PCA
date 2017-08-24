@@ -1,0 +1,5 @@
+"0","p <- ggplot() + "
+"0","  geom_line(mapping = aes(x = 1:4,y = pve), color = ""blue"", size = 1.5)+"
+"0","  geom_line(mapping = aes(x = 1:4,y = cumsum (pve )), color = ""red"", size = 1.2)+"
+"0","  labs(x = "" Principal Component "", y = "" Proportion vs Cumulative Proportion of Variance Explained"")"
+"0","p+annotate(""text"", x = c(2.5,2.5), y =c(0.75,0.3), label = c(""Cumulative Proportion of Variance Explained"", ""Proportion of Variance Explained""),color = c(""red"",""blue""), size = 3)"
